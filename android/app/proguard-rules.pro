@@ -1,0 +1,3 @@
+-keep class com.restoration.engine.** { *; }
+-keep class com.restoration.engine.android.NativeBridge { *; }
+-keepclasseswithmembernames class * { native <methods>; }
